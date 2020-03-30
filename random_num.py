@@ -5,6 +5,6 @@ print("Guess the number I have generated randomly from 1-100 inclusive ")
 u = input("Enter your guess ")
 u = int(u)
 if r == u:
-    print("The answer is right : " + str(r))
+    print("Your answer is right : " + str(r))
 else:
     print("Oops! The correct answer is : " + str(r))
